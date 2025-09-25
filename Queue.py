@@ -1,7 +1,7 @@
-event_queue = []
+pavanraj_event_queue = []
 
 def add_event(event):
-    event_queue.append(event)
+    pavanraj_event_queue.append(event)
     print(f"Event '{event}' added to the queue.")
 
 def process_next_event():
